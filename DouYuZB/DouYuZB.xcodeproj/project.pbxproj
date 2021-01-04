@@ -56,6 +56,7 @@
 		EB60DD77259B337A00DA9CFA /* DouYuZB */ = {
 			isa = PBXGroup;
 			children = (
+				EBE00E8425A2F19A00E6903E /* Classes */,
 				EB60DD78259B337A00DA9CFA /* AppDelegate.swift */,
 				EB60DD7A259B337A00DA9CFA /* SceneDelegate.swift */,
 				EB60DD7C259B337A00DA9CFA /* ViewController.swift */,
@@ -65,6 +66,61 @@
 				EB60DD86259B338200DA9CFA /* Info.plist */,
 			);
 			path = DouYuZB;
+			sourceTree = "<group>";
+		};
+		EBE00E8425A2F19A00E6903E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EBE00E8525A2F19A00E6903E /* Home */,
+				EBE00E8625A2F19A00E6903E /* Tools */,
+				EBE00E8725A2F19A00E6903E /* Follow */,
+				EBE00E8825A2F19A00E6903E /* Profile */,
+				EBE00E8925A2F19A00E6903E /* Live */,
+				EBE00E8A25A2F19A00E6903E /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EBE00E8525A2F19A00E6903E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EBE00E8625A2F19A00E6903E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		EBE00E8725A2F19A00E6903E /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		EBE00E8825A2F19A00E6903E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		EBE00E8925A2F19A00E6903E /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		EBE00E8A25A2F19A00E6903E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +340,7 @@
 		EB60DD8A259B338200DA9CFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 28QZKBRGZ7;
@@ -303,7 +359,7 @@
 		EB60DD8B259B338200DA9CFA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 28QZKBRGZ7;
